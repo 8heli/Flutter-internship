@@ -25,4 +25,24 @@ Day 3 - Practice task :
 4. Added profile image using CircleAvatar
 5. Displayed name and role using Text widgets
 6. Used Column, Padding, and SizedBox for layout
-7. Added an interactive ElevatedButton
+7. Added an interactive ElevatedButton|
+
+# Day 10 – Flutter Data Passing & Reusable Widgets
+
+## Description
+This project demonstrates data passing between screens and the use of reusable widgets in Flutter. The app displays a list of items using dynamic data, and on tapping an item, navigates to a detail screen showing more information.
+
+## Concepts Used
+- Passing data between screens using constructors
+- Receiving data using final variables
+- Creating and using reusable widgets
+- Clean code structure with separate screens and widgets folders
+
+## Reusable Widget
+- CustomCard widget used to display item image and title
+
+## Data Passed Between Screens
+- Title
+- Image path
+- Description
+
