@@ -46,3 +46,33 @@ This project demonstrates data passing between screens and the use of reusable w
 - Image path
 - Description
 
+# Day 11 – Local Storage & App State
+
+## Overview
+A simple Flutter app to practice **local storage** and **basic app state**.  
+Users can save a name or email locally, view it, and clear it.
+
+---
+
+## Features
+- Enter text in a TextField.  
+- Save data using `SharedPreferences`.  
+- Display saved data immediately and on app restart.  
+- Clear saved data with a button.  
+- Black background with light blue buttons.
+
+---
+
+## Data Stored
+- Key: `'user_data'`  
+- Type: String (name/email)  
+- Stored locally for persistence.
+
+---
+
+## How to Run
+```bash
+flutter pub get
+flutter run
+
+
